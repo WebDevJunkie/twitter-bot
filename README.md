@@ -31,7 +31,7 @@ module.exports = {
 }
 ```
 
-Setup the config.js with your specific time interval and query strings. The following is what comes out of the box:
+Setup the config.js with your specific time interval in miliseconds and query strings. The following is what comes out of the box:
 
 ```
 module.exports = {
@@ -42,6 +42,16 @@ module.exports = {
 
 run the project:
 
+To run the project you'll need to install pm2
+
 ```
-node engine.js
+npm install pm2 -g
 ```
+
+Run the following command within the root of the project director:
+
+```
+npm run start
+```
+
+Checkout out the pm2 documentation at https://www.npmjs.com/package/pm2 to see how to monitor, start and stop your process
