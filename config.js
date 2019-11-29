@@ -1,4 +1,4 @@
 module.exports = {
     query: ["#nodejs", "#javascript", "#reactjs"],
-    delay: 1800000
+    delay: 10800000
 }
